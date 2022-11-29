@@ -1,0 +1,23 @@
+.navo{
+    color:grey;
+}
+.navo:hover{
+    color:yellow
+}
+
+.container-fluid{
+    background-color: black;
+    padding: 0;
+}
+header{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.brand{
+    color:grey;
+
+}
+.content{
+    padding:70px;
+    margin:40px;
+}

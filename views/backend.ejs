@@ -1,0 +1,37 @@
+<%- include("partials/nav"); -%>
+<div class="container">
+ <div class="row">
+  <form action="/compose" method="post">
+    <h1>Compose</h1>
+   <div class="col-12"> 
+    <label>Title</label>
+   </div>
+   <div class="col-12">
+    <input type="text" name="posttitle">
+   </div>
+   <div class="col-12">
+    <label>Post</label>
+    </div>
+    <div class="col-12">
+    <textarea name="postbody" cols="50" rows="10"></textarea>
+    </div>
+    <button  class="btn btn-outline-warning" name="publis" value="publish">Publish</button>
+   </form>
+   </div>
+</div>
+</div>
+<%- include("partials/footer"); -%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
